@@ -1,0 +1,28 @@
+{
+  "server" : {
+    "bindIP" : "shep1.vm.bytemark.co.uk",
+    "bindPort" : "8888"
+  },
+  "logger" : {
+    "format" : "dev"
+  },
+  "session" : {
+    "secret": "thisisareallyreallylongsecrettoencryptcookies",
+    "maxAge": "3600000"
+  },
+  "staticMiddleware": {
+    "maxAge": "0"
+  },
+  "dirs": {
+    "wwwRoot": "../",
+    "templates": "../templates",
+    "publish": "view",
+    "hostname": "http://shep1.vm.bytemark.co.uk:8888"
+  },
+  "templates": {
+    "tayhp": "{{templateBase}}tayhp/tayhp-config.json"
+  },
+  "exportAssets": [
+    "../dist/external/popcorn-js/popcorn.js"
+  ]
+}
