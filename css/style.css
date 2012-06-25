@@ -7397,21 +7397,17 @@ padding-top: 60px;
 body {
   background-color: #222;
   height: 900px;
-  background-image: url(../img/bg/txture.png);
 }
 .media-type {
+  text-align: center;
   letter-spacing: 0.2em;
   margin-top: 20px;
   font-size: 1.2em;
   color: #434343;
 }
 .video-holder,
-.twitter,
-.wordriver,
-.flickr,
-.maps {
+.social-content {
   margin-top: 20px;
-  width: auto;
   text-align: center;
   height: 315px;
   background-color: #111;
@@ -7420,6 +7416,9 @@ body {
 .video-holder {
   /* height: 315px; */
 
+}
+.social-content {
+  background-color: #333;
 }
 .twitter {
   color: white;
